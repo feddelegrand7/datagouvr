@@ -1,0 +1,20 @@
+Package: datagouvr
+Type: Package
+Title: Access Data from the French Open Data Portal 
+Version: 0.0.1
+Author: Mohamed El Fodil Ihaddaden
+Maintainer: Mohamed El Fodil Ihaddaden <ihaddaden.fodeil@gmail.com>
+Description: Allows the user to access and import data from the rich French open data portal through the provided free API <https://doc.data.gouv.fr/api/reference/>. 
+    The portal is free, and no credential is required for extracting datasets. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+URL: 
+BugReports: 
+VignetteBuilder: knitr
+Imports: 
+    httr2,
+    magrittr,
+    tibble,
+    tidyr
+RoxygenNote: 7.1.1
